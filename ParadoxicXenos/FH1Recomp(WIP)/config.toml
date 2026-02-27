@@ -1,0 +1,22 @@
+[main]
+file_path = 'C:\Users\mehro\Downloads\fh1\fh1\fh1.xex'
+out_directory_path = 'C:\Users\mehro\Downloads\fh1\Forza Horizon\cpp_output'
+switch_table_file_path = 'input.toml'
+
+skip_lr = true
+skip_msr = true
+ctr_as_local = true
+xer_as_local = true
+reserved_as_local = true
+cr_as_local = true
+non_argument_as_local = true
+non_volatile_as_local = true
+
+restgprlr_14_address = 0x82A7DE20
+savegprlr_14_address = 0x82A7DDD0
+restfpr_14_address = 0x82A7E33C
+savefpr_14_address = 0x82A7E2F0
+restvmx_14_address = 0x82A7F478
+savevmx_14_address = 0x82A7F1E0
+restvmx_64_address = 0x82A7F50C
+savevmx_64_address = 0x82A7F274

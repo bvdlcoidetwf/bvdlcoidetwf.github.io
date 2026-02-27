@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DefaultAssociations>
+  <Association Identifier=".bmp" ProgId="Applications\photoviewer.dll" ApplicationName="Windows Photo Viewer" />
+  <Association Identifier=".gif" ProgId="Applications\photoviewer.dll" ApplicationName="Windows Photo Viewer" />
+  <Association Identifier=".htm" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier=".html" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier=".jpeg" ProgId="Applications\photoviewer.dll" ApplicationName="Windows Photo Viewer" />
+  <Association Identifier=".jpg" ProgId="Applications\photoviewer.dll" ApplicationName="Windows Photo Viewer" /> 
+  <Association Identifier=".pdf" ProgId="Acrobat.Document.DC" ApplicationName="Adobe Acrobat DC" />
+  <Association Identifier=".pdx" ProgId="AcrobatPDXFileType" ApplicationName="Adobe Acrobat DC" /
+  <Association Identifier=".png" ProgId="Applications\photoviewer.dll" ApplicationName="Windows Photo Viewer" />
+  <Association Identifier=".shtml" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier=".tif" ProgId="PhotoViewer.FileAssoc.Tiff" ApplicationName="Windows Photo Viewer" />
+  <Association Identifier=".webp" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier=".xht" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier=".xhtml" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="ftp" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="http" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="https" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="irc" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="mailto" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="mms" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="news" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="nntp" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="sms" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="smsto" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="tel" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="urn" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+  <Association Identifier="webcal" ProgId="ChromeHTML" ApplicationName="Google Chrome" />
+</DefaultAssociations>
