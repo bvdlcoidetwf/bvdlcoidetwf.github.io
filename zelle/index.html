@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="HTMLy" />
+<link rel="icon" type="image/png" href="https://bfdejlvhar.github.io/zelle/favicon.png" />
+    <title>zelle's website!</title>
+    <meta name="description" content="everyone should have a personal website, even me"/>
+    <link rel="stylesheet" type="text/css" href="https://bfdejlvhar.github.io/zelle/dark.css">
+    <link id="theme-style" rel="stylesheet" href="https://bfdejlvhar.github.io/zelle/styles.css">
+    <script>
+    function changeStyle(style) {
+    if (style == null)
+        style = localStorage.getItem("style");
+        if (style == null)
+            style = "dark";
+    document.querySelector("link[type='text/css']").setAttribute("href", "https://bfdejlvhar.github.io/zelle/" + style + ".css");
+    localStorage.setItem("style", style);
+}
+
+changeStyle();
+</script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="in-front" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    <!-- ******HEADER****** -->
+        <div id="container">
+            <div id="headerArea">
+                <div id="header">
+                <div class="logo"><img class="logo-image" src="https://bfdejlvhar.github.io/zelle/lamb.png"/></div>
+                </div>
+
+            <div id="flex">
+
+                <main>
+                    <section class="inpage post section" itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+    <div class="section-inner">
+        <div class="content">
+            
+            <div class="item">
+                <h1 class="title" itemprop="headline">zelle has a website!</h1>                 <div class="desc text-left" itemprop="articleBody">
+                    <p>...why not?</p>
+
+<p>hello world :)</p>
+
+<p>this is my tiny horrible website!<br>
+    i'm approximately one million years old and i work for a charity called <a href="https://tuhuratech.org.nz/">Tūhura Tech</a>.</p>
+                </div><!--//desc-->
+            </div><!--//item-->
+        </div><!--//content-->
+    </div><!--//section-inner-->
+</section><!--//section-->                </main>
+
+            </div>
+            <footer id="footer"><button onclick="changeStyle('light')">light</button><button onclick="changeStyle('dark')">dark</button></footer>
+        </div>
+</body>
+</html>

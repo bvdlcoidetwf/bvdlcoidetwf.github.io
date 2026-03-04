@@ -1,0 +1,241 @@
+
+            :root {
+                --body-bg-image: url('https://bfdejlvhar.github.io/zelle/argentina_flathorizon.png');
+            }
+
+            @font-face {
+                font-family: NotoSans;
+                src: url('https://bfdejlvhar.github.io/zelle/NotoSans-Regular.ttf');
+            }
+
+            @font-face {
+                font-family: NotoSans;
+                src: url('https://bfdejlvhar.github.io/zelle/NotoSans-Bold.ttf');
+                font-weight: bold;
+            }
+
+            @font-face {
+                font-family: NotoSans;
+                src: url('https://bfdejlvhar.github.io/zelle/NotoSans-Italic.ttf');
+                font-style: italic;
+            }
+
+            @font-face {
+                font-family: NotoSans;
+                src: url('https://bfdejlvhar.github.io/zelle/NotoSans-BoldItalic.ttf');
+                font-style: italic;
+                font-weight: bold;
+            }
+
+            body {
+                font-family: 'NotoSans', sans-serif;
+                margin: 0;
+                background: var(--body-bg-image);
+                background-size: auto 100vh;
+                background-attachment: fixed;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+            
+            .logo img {
+                max-height: 100px;
+            }
+
+            #container {
+                max-width: 900px;
+                margin: 0 auto;
+                min-height: 100vh;
+            }
+
+            #container a {
+                font-weight: bold;
+                text-decoration:none;
+            }
+
+            #header {
+                width: 100%;
+                height: fit-content;
+                text-align: right;
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            #header div {
+            padding: 10px;
+            }
+            
+            .blurbtitle {
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            #navbar {
+                height: 40px;
+                width: 100%;
+                margin-bottom: 5px;
+            }
+
+            #navbar ul {
+                display: flex;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                justify-content: center;
+            }
+
+            #navbar li {
+                padding-top: 10px;
+            }
+
+
+            #navbar li a, button {
+                padding: 5px 15px;
+                margin: 0px 5px;
+                font-weight: 800;
+                text-decoration: none;
+                background: none;
+                cursor: pointer;
+
+            }
+
+            #flex {
+                display: flex;
+            }
+
+
+            main {
+                flex: 1;
+                padding: 20px;
+                max-width: 100%;
+            }
+        
+            
+            main img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .breadcrumb > :not(a) {
+              visibility: hidden;
+            }
+
+            footer {
+                width: 100%;
+                height: fit-content;
+                padding: 10px;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 25px;
+                display: inline;
+            }
+            
+            .tab li { 
+                display: inline;
+                padding-right: 5px;
+            }
+            
+            figcaption
+            {
+            text-align: center;
+            }
+            
+            .status-header, .stats-grouping, .accountstats, .stats-item, .col-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .stats-grouping dd {
+                padding-right: 15px;
+                margin-left: 5px;
+            }
+            
+            .account-card {
+                display: block;
+            }
+            
+            .accountstats dt, .accountstats dd {
+                padding: 2px;
+            }
+            
+            .accountstats dt, .stats-grouping dt {
+             font-weight: bold;
+            }
+            
+            .status-header picture, .status-header div, .account-card h3 {
+                display: inline;
+            }
+            
+            .avatar img, .activitypub-logo, img.avatar {
+            max-width: 10% !important;
+            display: inline;
+            vertical-align: middle;
+            }
+            
+                        .sr-only { 
+                visibility: hidden;
+            }
+            
+            .thread article {
+                padding-bottom: 10px;
+            }
+            
+            .thread article section {
+                padding: 10px;
+                border-radius: 10px;
+            }
+            
+            .language {
+                display: none;
+            }
+            
+        
+            
+            .status-body {
+                padding: 0 0.75rem !important;
+                font-size: 110%;
+                margin: -5px !important;
+            }
+            
+            .status-info {
+                margin: -10px !important;
+                padding: 0 0.75rem !important;
+            }
+            
+            .stats-grouping, .status-link, .text-spoiler .button {
+                opacity: 0.75;
+                font-weight: bold;
+                font-size: 90%;
+            }
+            
+            .status .text-spoiler > summary {
+                padding-top: 0.5rem;
+                display: block !important;
+            }
+
+            @media only screen and (max-width: 800px) {
+                #flex, #navbar ul, #header, .accountstats {
+                    flex-wrap: wrap;
+                }
+                #header div, #header {
+                text-align: center;
+                }
+                .statuses-wrapper .thread, .accountstats {
+                    margin-right: -15px !important;
+                    margin-left: -15px !important;
+                }
+                
+                 .status-header, .accountstats, .stats-item {
+                  justify-content: center;
+            }
+                
+            }

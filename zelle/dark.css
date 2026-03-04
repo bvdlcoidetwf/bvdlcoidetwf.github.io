@@ -1,0 +1,83 @@
+
+            :root {
+                --main-bg-color: #2d2d2d;
+                --header-footer-color: #2d2d2d;
+                --link-color: #2faced;
+                --font-color: #FFFAF0;
+
+                --selective-yellow: #FAB000;
+                --floral-white: #FFFAF0;
+                --indigo: #00416A;
+                --cerulean: #007BA7;
+                --fav-blue: #2FACED;
+
+
+            }
+
+            body {
+                color: var(--font-color);
+            }
+            #container {
+                border-right: 5px solid var(--link-color);
+                border-left: 5px solid var(--link-color);
+                background-color: var(--main-bg-color);
+            }
+
+            #container a {
+                color: var(--link-color);
+            }
+            
+            .status .text-spoiler > summary {
+                background:linear-gradient(var(--link-color),var(--link-color)) no-repeat;
+    			background-size:100% 1px;
+    			background-position:center bottom;
+            }
+
+            #container  a:hover {
+                color: var(--font-color);
+            }
+
+
+            #header {
+                background-color: var(--header-footer-color);
+            }
+
+            #navbar {
+                background-color: var(--header-footer-color);
+            }
+
+            #navbar li a, button {
+                color: var(--link-color);
+                border: 1px solid var(--link-color);
+            }
+
+            #navbar li a:hover, button:hover {
+                color: var(--font-color) !important;
+                border: 1px solid var(--font-color) !important;
+            }
+
+            main {
+                background:linear-gradient(var(--font-color),var(--font-color)) no-repeat;
+    			background-size:95% 1px;
+    			background-position:center top;
+            }
+            
+            .thread article section {
+                border: 2px solid var(--font-color);
+            }
+
+            footer {
+                background:linear-gradient(var(--font-color),var(--font-color)) no-repeat;
+    			background-size:95% 1px;
+    			background-position:center top;
+            }
+
+            h1,
+            h2,
+            h3 {
+                color: var(--font-color);
+            }
+
+            strong {
+                color: var(--font-color);
+            }
