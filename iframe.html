@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_iframe.css">
-    <title>IFRAME</title>    
-  </head>
-  <body>
-    <header>
-        <nav>
-            <h2>IFRAME</h2>
-            <a href="index.html" class="button">HOME</a>
-            <a href="https://github.com/bvdlcoidetwf/bvdlcoidetwf.github.io" class="button">GITHUB</a>
-            <a href="ArohasCar.html" class="button">AROHA'S CAR</a>
-            <a href="iframe.html" class="button">IFRAME</a>
-            <button class="button" onclick="gatito()">GATITO?</button>
-        </nav>
-    </header>
-    <div class="hero-text" style="position: fixed; left:1em; top:45%;">
-        <h1>GET CROUTONED.</h1>
-    </div>
-    <div class="crouton">
-            <iframe height="447px" width="670" src="https://crouton.net/"></iframe>
-    </div>
-    <script src="/gatito.js?cache=nocachethankyou"></script>
-  </body>
-  
-</html>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>IFRAME</title>
+</head>
 
+<body>
+  <header>
+    <nav>
+      <h2>IFRAME</h2>
+      <div class="hamburger" id="nav-content">
+        <a href="index.html" class="button">HOME</a>
+        <a href="https://github.com/bvdlcoidetwf/bvdlcoidetwf.github.io" class="button">GITHUB</a>
+        <a href="ArohasCar.html" class="button">AROHA'S CAR</a>
+        <a href="iframe.html" class="button">IFRAME</a>
+        <button class="button" onclick="gatito()">GATITO?</button>
+      </div>
+      <button class="menu-btn" onclick="openNav(event)">Menu</button>
+    </nav>
+  </header>
+  <main>
+    <div class="flex row centered main-sect">
+      <div class="hero-text">
+        <h1>GET CROUTONED.</h1>
+      </div>
+
+      <div class="flex column">
+        <div class="flex centered">
+          <iframe class="image" src="https://crouton.net/" style="height:40vh"></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="gatito.js?cache=idontwantcachepleasethankyou"></script>
+</body>
+
+</html>
