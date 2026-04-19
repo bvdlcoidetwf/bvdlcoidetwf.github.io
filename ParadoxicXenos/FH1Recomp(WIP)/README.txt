@@ -10,7 +10,7 @@ Nitch2024: https://github.com/Nitch2024/XenonRecomp
 
 This one has worked better for me due to actually getting switch tables from the .xex file, unlike the original one
 
-To get any exe file from the code you must use CMake and Visual Studio to build it (i will link the tutorial I used below for you!)
+To get any exe file from the code you must use CMake and Visual Studio to build it (i will link the tutorial I used below for you!) "Or use gcc/g++ like a chad" - Sheep26
 
 
 ===================================================================================HOW TO GET THE .XEX file===================================================================================================
